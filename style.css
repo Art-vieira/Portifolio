@@ -5,6 +5,54 @@
   margin: 0;
 }
 
+.nome {
+  color: #e2e4e9;
+  font-family: Asap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.descricao {
+  color: #c0c4ce;
+  font-family: Maven Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.vermelho {
+  color: #e3646e;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.negrito {
+  color: #e2e4e9;
+  text-align: center;
+  font-family: Asap;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  align-self: stretch;
+}
+
+.roxo {
+  color: #bb72e9;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
 .info {
   display: flex;
   width: 1040px;
@@ -61,7 +109,7 @@ header h1 {
 header h5 {
   color: #878ea1;
   text-align: center;
-  font-family: "Maven Pro";
+  font-family: Maven Pro;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -110,7 +158,7 @@ header h5 {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  padding: 120px 163px 57px 163px;
+  padding: 100px 163px 57px 163px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,4 +187,152 @@ header h5 {
 .stacks img {
   width: 22px;
   height: 22px;
+}
+
+.projetos {
+  background-color: #16181d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 72px 120px 144px 120px;
+  align-items: center;
+  gap: 56px;
+  align-self: stretch;
+}
+
+.cards {
+  background-color: #292c34;
+  width: 308px;
+  height: 280px;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards:hover {
+  border: 1.5px solid #878ea1;
+}
+
+.cards img {
+  border-radius: 8px;
+  width: 306px;
+  height: 156px;
+}
+
+.cards p {
+  color: #c0c4ce;
+  font-family: Maven Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: start;
+}
+
+.cards span {
+  color: #e2e4e9;
+  font-family: Asap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: start;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 20px;
+}
+
+.servicos {
+  background-color: #0d0e11;
+  display: flex;
+  padding: 88px 120px 120px 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  align-self: stretch;
+}
+
+.tipos {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 24px;
+}
+
+.caixas {
+  border: 2px solid #16181d;
+  border-radius: 12px;
+  display: flex;
+  width: 250px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.caixas:hover{
+  border: 1.5px solid #878ea1;
+}
+
+.sub-caixa {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contatos {
+  background-image: url(background/Background_Contacts.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+}
+
+.contatos .descricao {
+  text-align: center;
+  font-size: 16px;
+}
+
+.links {
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20%;
+  gap: 16px;
+}
+
+.social {
+  background-color: #292c34;
+  border-radius: 8px;
+  display: flex;
+  width: 400px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.social p {
+  color: #c0c4ce;
+  font-family: Maven Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  display: flex;
+  flex: 1;
+}
+
+.social:hover{
+  border: 1.5px solid #3996DB;
 }
